@@ -1,0 +1,17 @@
+pandas
+numpy
+requests
+beautifulsoup4
+pytube
+moviepy
+whisper-timestamped
+openai
+pillow
+opencv-python
+pytesseract
+streamlit
+sqlalchemy
+python-dotenv
+matplotlib
+scikit-learn
+yt-dlp

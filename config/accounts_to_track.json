@@ -1,0 +1,10 @@
+{
+  "youtube": ["CHANNEL_ID_1", "CHANNEL_ID_2"],
+  "tiktok": ["@username1", "@username2"],
+  "instagram": ["username1", "username2"],
+  "your_accounts": {
+    "tiktok": "@yourname",
+    "instagram": "yourname",
+    "youtube": "yourchannelid"
+  }
+}

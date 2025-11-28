@@ -13,5 +13,3 @@ Tracker for social media content trends and analysis
 
 # Example Report 
 
-
-

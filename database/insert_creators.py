@@ -5,7 +5,7 @@ def insert_initial_creators():
     engine = get_engine()
 
     creator_data = [
-        {'platform': 'youtube', 'name': 'Natalie Oneill', 'handle': 'CvaL9hWV_pqLZjaixtL01Fg'},
+        {'platform': 'youtube', 'name': 'Natalie Oneill', 'handle': 'UCvaL9hWV_pqLZjaixtL01Fg'},
         {'platform': 'youtube', 'name': 'Madaleine Argy', 'handle': 'UCw24-aQvuVMP3C8gAduidPg'},
         {'platform': 'instagram', 'name': 'Natalie Oneill', 'handle': 'natalieoneilll'},
         {'platform': 'tiktok', 'name': 'Natalie Oneill', 'handle': 'natalieoneilll'},

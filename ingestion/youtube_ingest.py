@@ -2,6 +2,8 @@
 # 1. Connect to the Youtube API 
 # 2. Pull the latest videos from the specified accounts in accounts_to_track.json
 # 3. Print/store the basic metadata
+
+#TO DO: ADD IN THE VIDEO DURATIO LESS THAN MEANS ITS A SHORT OR LIVE STREAM ETC!!!
 import os
 from attr import define
 from dotenv import get_key, load_dotenv, find_dotenv

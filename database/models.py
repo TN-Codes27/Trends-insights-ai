@@ -3,7 +3,7 @@ from sqlalchemy import (
 )
 from sqlalchemy import MetaData
 from datetime import datetime
-
+from sqlalchemy import Enum
 metadata = MetaData()
 
 # 1. creators table
@@ -31,7 +31,8 @@ posts = Table(
     Column('caption', String, nullable=True),
     Column('published_at', DateTime),       # correct name + type
     Column('thumbnail_url', String, nullable=True),
-    Column('created_at', DateTime, default=datetime.now)
+    Column('created_at', DateTime, default=datetime.now),
+    Column("video_type", Enum("video", "short", "live", "reel", "post", name="video_type_enum"), nullable=False, default="video")
 )
 
 # 3. metrics table (time-series)
